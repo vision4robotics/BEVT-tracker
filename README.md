@@ -1,5 +1,9 @@
 # BEVT-tracker
-Matlab implementation of Boundary Effect-Aware Visual Tracking for UAV with Online Enhanced Background Learning and Multi-Frame Consensus Verification (BEVT tracker).
+| **Test passed**                                              |
+| ------------------------------------------------------------ |
+| [![matlab-2017b](https://img.shields.io/badge/matlab-2017b-yellow.svg)](https://www.mathworks.com/products/matlab.html) [![MatConvNet-1.0--beta25](https://img.shields.io/badge/MatConvNet-1.0--beta25%20-blue.svg)](http://www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz) ![CUDA-8.0](https://img.shields.io/badge/CUDA-8.0-green.svg) |
+
+> Matlab implementation of Boundary Effect-Aware Visual Tracking for UAV with Online Enhanced Background Learning and Multi-Frame Consensus Verification (BEVT tracker).
 
 ## Instructions
 1. Download VGG-Net-19 by cliking [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) and put it in `/model`.
@@ -19,3 +23,7 @@ vl_compilenn('enableGpu', false);
 
 ## Acknowledgements
 The parameter settings are partly borrowed from [BACF](http://www.hamedkiani.com/bacf.html) and [SRDCF](https://www.cvl.isy.liu.se/research/objrec/visualtracking/decontrack/index.html) paper and convolutional feature extraction function is borrowed from [HCF](https://github.com/jbhuang0604/CF2).
+
+## Results
+![](./images/Comparison-1-PP.png "Precision plot")
+![](./images/Comparison-1-AUC.png "Success plot")
