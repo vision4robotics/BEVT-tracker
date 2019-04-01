@@ -25,5 +25,6 @@ vl_compilenn('enableGpu', false);
 The parameter settings are partly borrowed from [BACF](http://www.hamedkiani.com/bacf.html) and [SRDCF](https://www.cvl.isy.liu.se/research/objrec/visualtracking/decontrack/index.html) paper and convolutional feature extraction function is borrowed from [HCF](https://github.com/jbhuang0604/CF2).
 
 ## Results
-![](./images/Comparison-1-PP.png "Precision plot")
-![](./images/Comparison-1-AUC.png "Success plot")
+![](./result/error.png "Precision plot")
+![](./result/overlap.png "Success plot")
+
