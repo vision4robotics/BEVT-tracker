@@ -17,7 +17,7 @@ global enableGPU;
 enableGPU = false;
 
 vl_setupnn();
-vl_compilenn('enableGpu', false);
+% vl_compilenn('enableGpu', false);
 
 %   HOG feature parameters
 hog_params.nDim   = 31;
@@ -78,7 +78,7 @@ params.use_response_map = 1;
 params.show_response_map = 0;
 params.save_response_map = 0;
 params.savedir = '.\reponse\';
-params.response_map_lr = 0.010;
+params.response_map_lr = 0.013;
 
 % Regularization window parameters
 params.use_reg_window = 1;              % wather to use windowed regularization or not
