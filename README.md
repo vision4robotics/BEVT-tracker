@@ -8,7 +8,7 @@
 ## Instructions
 1. Download VGG-Net-19 by cliking [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) and put it in `/model`.
 2. Download matconvnet toolbox [here](http://www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz) and put it in `/external`.
-3. Configure the data sequence in `configSeqs.m`.
+3. Configure the data sequence in `configSeqs_demo_for_BEVT.m`.
 4. Run `BEVT_Demo_single_seq.m`
 
 Note: the original version is using CPU to run the whole program. 
