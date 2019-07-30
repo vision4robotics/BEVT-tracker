@@ -7,7 +7,7 @@ clear; clc; close all;
 addpath('model','external/matconvnet/matlab', 'util');
 
 pathAnno = '.\seq\';
-seqs = configSeqs;
+seqs = configSeqs_demo_for_BEVT;
 
 idx = 1;
 
