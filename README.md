@@ -5,6 +5,30 @@
 
 > Matlab implementation of Boundary Effect-Aware Visual Tracking for UAV with Online Enhanced Background Learning and Multi-Frame Consensus Verification (BEVT tracker).
 
+## Publication and Citation
+
+This paper has been published by IROS2020.
+
+You can find this paper here: https://ieeexplore.ieee.org/document/8967674.
+
+Please cite this paper as: 
+
+@INPROCEEDINGS{8967674,
+
+  author={C. {Fu} and Z. {Huang} and Y. {Li} and R. {Duan} and P. {Lu}},
+  
+  booktitle={Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems}, 
+  
+  title={Boundary Effect-Aware Visual Tracking for UAV with Online Enhanced Background Learning and Multi-Frame Consensus Verification}, 
+  
+  year={2019},
+  
+  volume={},
+  
+  number={},
+  
+  pages={4415-4422},}
+
 ## Instructions
 1. Download VGG-Net-19 by cliking [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) and put it in `/model`.
 2. Download matconvnet toolbox [here](http://www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta25.tar.gz) and put it in `/external`.
